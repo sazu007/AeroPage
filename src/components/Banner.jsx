@@ -15,7 +15,7 @@ nibh arcu eu. Id sem varius malesuada tincidunt sodales.</p>
                 <button className='border-2 py-2 px-8 rounded-lg border-red-500 hover:bg-[#EA580C] '><a className='font-Roboto font-semibold text-black hover:text-white hover:transition-colors' href="#service">Get started now</a></button>
                 </div>
             <div className="w-[90%] text-center lg:w-full lg:ml-32 justify-center">
-              <img src={Banimg} alt="banner" />
+              <img className='animate-pulse' src={Banimg} alt="banner" />
             </div>
             </div>
 
