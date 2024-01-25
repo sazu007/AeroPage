@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 .scroll-to-top{
-background-color: blue !important;
+background-color: rgb(236, 68, 68) !important;
 border-radius: 50% !important;
+margin-left: 5px;
 }
 .is-active{
     background-color:cornflowerblue !important;

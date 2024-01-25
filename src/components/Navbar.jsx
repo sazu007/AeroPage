@@ -25,12 +25,12 @@ return (
                     activeNavClass="is-active"
                     scrollDuration="1000"
                     headerBackground="true">  
-                <ul className={`lg:flex lg:gap-x-12 absolute left-0 top-0 lg:static ${show ? "top-[105px] w-full lg:bg-transparent bg-red-200 py-6 text-center lg:py-1 transition duration-300 ease-in-out" : "top-[-300px] left-0 w-full bg-[gray] transition duration-300 ease-in-out"} items-center justify-center`}>
-                    <li className='py-0 lg:py-0'><a className="justify-center text-[#0B0B0B] font-AbeeZee text-lg font-semibold" href="#banner">Home</a></li>
-                    <li className='py-2 lg:py-0'><a className="justify-center text-[#0B0B0B] font-AbeeZee text-lg font-semibold" href="#service">About</a></li>
-                    <li className='py-2 lg:py-0'><a className="justify-center text-[#0B0B0B] font-AbeeZee text-lg font-semibold" href="#service">Service</a></li>
-                    <li className='py-2 lg:py-0'><a className="justify-center text-[#0B0B0B] font-AbeeZee text-lg font-semibold" href="#banner">Contact</a></li>
-                    <div className="flex ml-0 border-2 py-2 px-1 lg:px-6 items-center justify-center rounded-3xl border-red-500 hover:bg-[#EA580C] hover:text-white "> 
+                <ul className={`lg:flex lg:gap-x-12 absolute left-0 top-0 lg:static ${show ? "top-[105px] w-full lg:bg-transparent bg-red-200 opacity-50 py-4 text-center lg:py-1 transition duration-300 ease-in-out" : "top-[-300px] left-0 w-full bg-[gray] transition duration-300 ease-in-out"} items-center justify-center`}>
+                    <li className='py-0 lg:py-0'><a className="justify-center text-red-600 lg: text-[#0B0B0B] font-AbeeZee text-lg font-semibold" href="#banner">Home</a></li>
+                    <li className='py-1 lg:py-0'><a className="justify-center  text-red-600 lg: text-[#0B0B0B] font-AbeeZee text-lg font-semibold" href="#service">About</a></li>
+                    <li className='py-1 lg:py-0'><a className="justify-center  text-red-600 lg: text-[#0B0B0B] font-AbeeZee text-lg font-semibold" href="#service">Service</a></li>
+                    <li className='py-1 lg:py-0'><a className="justify-center  text-red-600 lg: text-[#0B0B0B] font-AbeeZee text-lg font-semibold" href="#banner">Contact</a></li>
+                    <div className="flex ml-0 border-2 py-1 px-1 lg:px-6 items-center justify-center rounded-xl hover:bg-[#EA580C] hover:text-white "> 
                     <p> <FaCloudDownloadAlt className="mr-2 text-2xl"/> </p>
                     <li><a className="font-REM text-base" href="#service">Download</a></li>
                     </div>
